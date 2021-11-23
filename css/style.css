@@ -1,0 +1,45 @@
+body{margin-top:90px;}
+
+.navbar{box-shadow:2px 2px 5px #3292a6;
+background: #fff;
+opacity: 0.9;}
+.nav-item{font-size:1.4rem;
+padding-right:20px;}
+.nav-item:last-child{padding-right:0;}
+
+#homes{background-image:url(../image/hill.jpeg);
+background-repeat:no-repeat;
+background-size:cover;
+min-height:600px;
+position:relative;
+}
+
+.overlay{background:rgba(50, 146, 156, 0.7);
+min-height:600px;
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+.btn-group-lg>.btn, .btn-lg{border-radius:0px;}
+
+@media(max-width:576px){
+	#homes h1{font-size:4rem;}
+}
+
+#subscribe{background:#252525;}
+
+#authors img{margin-top:-50px;}
+
+#authors .card:hover{background:#3292A6;
+color:#fff;}
+
+#authors .fab{font-size:25px;
+}
+
+.fab,.card:hover{color:#fff;}
+
+
+.athores{margin-bottom:20px;}
